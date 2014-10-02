@@ -2,3 +2,6 @@ application:nikiemasblog
 runtime:python
 version:1
 api_version:1
+handlers:
+-url: .*
+script: django_boostrap.py
